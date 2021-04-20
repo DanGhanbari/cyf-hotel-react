@@ -2,15 +2,15 @@ import React from "react";
 
 const TouristInfoCards = () => {
   return (
-    <div className="d-flex flex-column align-items-center flex-md-row justify-content-around">
-      <div className="card mt-4 mb-2">
+    <div className="d-flex flex-column align-items-center flex-md-row justify-content-around  align-items-md-start">
+      <div className="card mb-2">
         <img
           src="https://images.pexels.com/photos/5455196/pexels-photo-5455196.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
           alt="#"
           className="card-img-top"
         />
-        <div className="card-body text-center">
-          <h3>Paris</h3>
+        <div className="card-body">
+          <h3 className="text-center">Paris</h3>
           <p>
             Paris is famous for its cafe culture, the Eiffel Tower, the Louvre,
             Notre Dame, the Moulin Rouge, pastries, and fashion. Paris is known
@@ -29,14 +29,14 @@ const TouristInfoCards = () => {
           alt="#"
           className="card-img-top"
         />
-        <div className="card-body text-center">
-          <h3>London</h3>
+        <div className="card-body">
+          <h3 className="text-center">London</h3>
           <p>
             One of the world's most visited cities, London has something for
             everyone: from history and culture to fine food and exceedingly good
-            times. ... With such diversity, London's cultural dynamism makes it
-            among the world's most international cities. It is a city of ideas –
-            an innovator of art and culture.
+            times. With such diversity, London's cultural dynamism makes it
+            among the world's most international cities. It's a city of ideas an
+            innovator of art and culture.
           </p>
           <a href="https://www.visitlondon.com/" className="btn btn-secondary">
             More information
@@ -49,8 +49,8 @@ const TouristInfoCards = () => {
           alt="#"
           className="card-img-top"
         />
-        <div className="card-body text-center">
-          <h3>Kuala Lumpur</h3>
+        <div className="card-body">
+          <h3 className="text-center">Kuala Lumpur</h3>
           <p>
             Kuala Lumpur is the capital city of Malaysia, boasting gleaming
             skyscrapers, colonial architecture, charming locals, and a myriad of
